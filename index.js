@@ -46,7 +46,7 @@ app.post('/api/register', async (req, res) => {
     res.status(500).json({ error: 'Internal Server Error' });
   }
 });
-
+  
 // New route to get all users
 app.get('/api/users', async (req, res) => {
     try {
